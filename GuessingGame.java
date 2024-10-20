@@ -3,6 +3,7 @@ public class GuessingGame {
         
         Guesser game = new Guesser(0, 1000);
 
+        game.start();
         
     }
 }
