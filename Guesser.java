@@ -1,6 +1,3 @@
-import java.io.Console;
-import java.util.*;
-
 /**
  * Assignment 1 - Guessing Game
  * 
