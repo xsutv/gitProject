@@ -17,7 +17,7 @@ pwd
 
 echo "Compiling all java files.."
 
-javac *.java
+javac *.java # om man vill kan man bara kompilera main filen GuessingGame.java
 
 echo "Running game.."
 
