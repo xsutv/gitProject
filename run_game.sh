@@ -27,7 +27,7 @@ echo "Game finished"
 
 for f in *.class
 do
-    rm "$f" "$NAME$SUFFIX"
+    rm "$f" 
 done
 
 ls 
