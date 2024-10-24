@@ -1,1 +1,18 @@
-Jag siktar på VG!
+Jag siktar på VG!Jag siktar på VG!
+
+1. Pull innebär att du hämtar innehåll från ett remote repository som exempelvis GitHub.
+    Push innebär att du skickar dina lokalt commitade ändringar till ett remote repository som GitHub. 
+
+2. Git status används för att se vilka staged filer som väntar på commits. Den visar även vilken branch du står i.
+Den talar om för dig om ditt staged läge är tomt eller har köade ändringar. 
+
+3. Git branch är viktigt för att effektivt och säkert samarbeta med flera personer i ett projekt. Det behöver inte bara
+vara när man är flera personer utan det kan även vara bra när du jobbar själv på ett projekt.
+Du kanske inte vill göra ändringar direkt i main som eventuellt kan skapa problem utan istället
+skapa en branch som du kan testa dina ändringar på innan du merge ihop dessa ändringar från din branch till din main.
+
+4. Rulla tillbaka koden:
+git reset --mixed
+git reset --soft
+git reset --hard
+git revert 
